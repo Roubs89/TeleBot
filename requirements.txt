@@ -1,7 +1,11 @@
+aiogram==2.9.2
+aiohttp==3.6.2
 altgraph==0.17
 appdirs==1.4.4
 async-generator==1.10
+async-timeout==3.0.1
 attrs==19.3.0
+Babel==2.8.0
 backcall==0.1.0
 bleach==3.1.5
 cached-property==1.5.1
@@ -35,6 +39,7 @@ jupyterlab-server==1.1.5
 language==0.6
 MarkupSafe==1.1.1
 mistune==0.8.4
+multidict==4.7.6
 nbconvert==5.6.1
 nbformat==5.0.6
 notebook==6.0.3
@@ -59,6 +64,8 @@ pyrsistent==0.16.0
 pyTelegramBotAPI==3.7.1
 python-dateutil==2.8.1
 python-telegram-bot==12.8
+pytz==2020.1
+pywinpty==0.5.7
 pyzmq==19.0.1
 requests==2.23.0
 requirementslib==1.5.9
@@ -75,4 +82,5 @@ vistir==0.5.2
 voila==0.1.21
 wcwidth==0.1.9
 webencodings==0.5.1
+yarl==1.4.2
 yaspin==0.17.0
