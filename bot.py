@@ -7,7 +7,7 @@ from aiogram import Bot, Dispatcher, executor, types
 logging.basicConfig(level=logging.INFO)
 
 # инициализация бота
-bot = Bot(token=config.TOKEN)
+bot = Bot(token=config.API_TOKEN)
 dp = Dispatcher(bot)
 
 # Эхо
