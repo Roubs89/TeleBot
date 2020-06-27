@@ -1,14 +1,14 @@
 import config
 import logging
 
-from aiogram import Bot, Dispetcher, executor, types
+from aiogram import Bot, Dispatcher, executor, types
 
 # задаём уровень логов
 logging.basicConfg(level=logging.INFO)
 
 # инициализация бота
 bot = Bot(token=config.API_TOKEN)
-dp = Dispetcher(bot)
+dp = Dispatcher(bot)
 
 # Эхо
 @dp.massage_handler()
